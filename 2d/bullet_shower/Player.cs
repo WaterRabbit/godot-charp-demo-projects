@@ -13,6 +13,8 @@ public partial class Player : Area2D
 
         BodyShapeEntered += OnBodyShapeEntered;
         BodyShapeExited += OnBodyShapeExited;
+
+        Input.MouseMode = Input.MouseModeEnum.Hidden;
     }
 
     public override void _Input(InputEvent @event)

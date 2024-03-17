@@ -14,7 +14,7 @@ config/name="Bullet Shower"
 config/description="Demonstrates how to manage large amounts of objects efficiently using low-level Servers."
 config/tags=PackedStringArray("2d", "demo", "performance")
 run/main_scene="res://shower.tscn"
-config/features=PackedStringArray("4.2")
+config/features=PackedStringArray("4.2", "C#")
 config/icon="res://icon.webp"
 
 [display]
